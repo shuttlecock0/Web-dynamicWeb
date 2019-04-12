@@ -1,0 +1,14 @@
+package spring_test.domain;
+
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+@Data
+@NoArgsConstructor
+@AllArgsConstructor
+
+public class Article{
+String title;
+String content;
+}
